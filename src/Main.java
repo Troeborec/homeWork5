@@ -26,9 +26,9 @@ public class Main {
         //task 3
         System.out.println("Задача №3");
         int speed = 110;
-        if (speed > 60){
+        if (speed > 60) {
             System.out.println("Если скорость " + speed + " то прдется заплатить штраф");
-        }else {
+        } else {
             System.out.println("Если скорость " + speed + " то можно ездить спокойно");
         }
         //task 4
@@ -45,8 +45,7 @@ public class Main {
         boolean howOldAreYou3 = oneAge > 18 && oneAge < 24;
         if (howOldAreYou3) {
             System.out.println("Если возраст человека равен " + oneAge + " , то ему нужно ходить в университет");
-        }
-        else if(oneAge >= 24) {
+        } else if (oneAge >= 24) {
             System.out.println("Если возраст человека равен " + oneAge + " , то ему нужно ходить на работу");
         }
         //task 5
@@ -76,21 +75,21 @@ public class Main {
             System.out.println("В вагоне только 102 места!");
         }
         //task 7
-        System.out.println("Задача №7");
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        boolean oneMore = (one > two && one > three);
-        boolean twoMore = (two > one && two > three);
-        boolean threeMore = (three > one && three > two);
-        if (oneMore){
-            System.out.println("Большее число " + one);
+        System.out.println("Задача 7");
+        int one = 20;
+        int two = 4;
+        int three = 42;
+        if (one >= two) {
+            if (one >= three) {
+                System.out.println("Наибольшее число " + one);
+            } else {
+                System.out.println("Наибольшее число " + three);
+            }
+        } else {
+            if (two >= three) {
+                System.out.println("Наибольшее число " + two);
+            } else {
+                System.out.println("Наибольшее число " + three);
+            }
         }
-        if (twoMore){
-            System.out.println("Большее число " + two);
-        }
-        if (threeMore){
-            System.out.println("Большее число " + three);
-        }
-        }
-    }
+    }}
