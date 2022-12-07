@@ -75,22 +75,5 @@ public class Main {
         } else {
             System.out.println("В вагоне только 102 места!");
         }
-        //task 7
-        System.out.println("Задача №7");
-        int one = 1;
-        int two = 2;
-        int three = 3;
-        boolean oneMore = (one > two && one > three);
-        boolean twoMore = (two > one && two > three);
-        boolean threeMore = (three > one && three > two);
-        if (oneMore){
-            System.out.println("Большее число " + one);
-        }
-        if (twoMore){
-            System.out.println("Большее число " + two);
-        }
-        if (threeMore){
-            System.out.println("Большее число " + three);
-        }
         }
     }
